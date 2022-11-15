@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    /* border: 2px  solid black; */
+    background-color: #F6F6EE;
+}
+
+/* Navigation css */
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    /* border: 2px solid red; */
+
+}
+
+#nav #logo{
+    padding: 10px;
+}
+
+#logo h1{
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: "gilroy";
+    letter-spacing: 1px;
+}
+
+#logo span{
+    font-weight: bold;
+}
+
+#nav_links{
+    display: flex;
+    gap: 20px;
+}
+
+#nav_links a{
+    color: black;
+    font-family: "gilroy";
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* The Landing Heading div css */
+
+#landing_heading{
+    padding: 3vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    flex-direction: column;
+    letter-spacing: 1px;
+
+}
+
+#landing_heading h1{
+    font-family: "voyage";
+    font-size: 3rem;
+}
+
+#landing_heading p{
+    font-family: 1rem;
+    padding: 10px;
+    font-family: "gilroy";
+}
+
+#landing_heading button{
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    font-family: "gilroy";
+    border-radius: 22px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+
+}
+
+/* illustration div css */
+
+#illustration{
+    width: 100%;
+}
+
+#illustration img{
+    width: 100%;
+}
+
+/* description section css */
+
+
+#desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+#desc_left{
+    width: 50%;
+    font-family: "gilroy";
+    border-right: 2px solid black;
+    padding: 10px 50px;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.desc_left_content{
+    width: 324px;
+}
+
+#desc_left h1{
+    font-size: 2.2rem;
+    
+}
+
+#desc_left p{
+    width: 324px;
+
+}
+
+#desc_right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    font-family: "gilroy";
+    padding: 10px 50px;
+    text-align: left;
+}
+
+#desc_right .desc_right_content{
+    width: 324px;
+
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+#desc_right h1{
+    font-size: 2.2rem;
+    
+}
